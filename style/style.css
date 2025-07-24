@@ -35,11 +35,21 @@ body{
 .text-cart{
     color: black;
 }
+.text-color-orange{
+    color: #E95A08;
+}
+.btn-primary{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 19px 80px;
+    font-weight: 600;
+}
 
 /* navbar related styles */
 .navbar{
      justify-content: space-between;
      align-items: center;
+     margin-bottom: 120px;
 }
 .nav-item{
     list-style: none;
@@ -51,4 +61,23 @@ body{
 .navbar, .banner{
     max-width: 1140px;
     margin: 0 auto;
+}
+/* banner related styles */
+.banner{
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 4rem;
+    flex-direction: column;
+
+}
+.banner-container{
+    margin-top: 162px;
+}
+.banner-description{
+   margin: 13px 0 0 0;
+    
 }
