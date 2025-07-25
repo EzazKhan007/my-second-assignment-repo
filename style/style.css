@@ -54,6 +54,9 @@ body{
     color: #FFFFFF;
     padding: 19px 80px;
     font-weight: 600;
+    border: none;
+    width: 270px;
+    height: 50px;
 }
 main{
     max-width: 1140px;
@@ -97,7 +100,7 @@ main{
    margin: 13px 0 0 0;
     
 }
-/* section related styles */
+/* section plants related styles */
 .content-wrapper{
     margin-top: 120px;
 }
@@ -111,7 +114,7 @@ main{
     max-width: 888px;
      font-size: 22px;
     text-align: center;
-    margin: 0;
+    margin: 0 0 59px 0;
 }
 .plants-title{
     font-weight: 700;
@@ -119,7 +122,64 @@ main{
     margin: 0;
 }
 
+
 .plants-card-wrapper{
-     display: grid;
-     grid-template-columns:repeat(4,1fr) ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    column-gap: 20px;
+    row-gap: 30px;
+     
 }
+.card-title{
+    font-weight: 500;
+    font-size: 22px;
+    margin: 30px 0 0 0;
+     
+}
+.plant-price{
+    font-weight: 700;
+    font-size: 22px;
+    margin: 20px 0 30px 0;
+    
+}
+/* flower lover related styles */
+.flower-lover{
+    max-width: 1140px;
+    height: 597px;
+    margin-top: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.flower-store-img{
+    position: relative;
+    max-width: 540px;
+    width: 100%;
+}
+
+.flower-plants{
+     width: 100%;
+     max-width: 540px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+ .flower-plants ul li{
+    margin-top: 20px;
+    font-size: 22px;
+ }
+
+.flower-title{
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+}
+ .seller-badge img {
+    position: absolute;
+    top: -120px;
+    right: -90px;
+    width: 100%;
+    max-width: 286px;
+}
+
+
