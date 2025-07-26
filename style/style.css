@@ -350,7 +350,6 @@ body{
 
 @media (max-width: 600px) {
   /* Containers & Layout */
-  .container-medium,
   .container-large,
   .navbar,
   .banner,
@@ -437,10 +436,11 @@ body{
   /* Flower lover section */
   .flower-lover {
     flex-direction: column;
-    gap: 32px;
+    gap: 18px;
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 143px;
   }
+   
 
   .flower-title {
     font-size: 28px;
@@ -451,34 +451,41 @@ body{
     max-width: 100%;
   }
 
+  .plants-card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 16px;}
+    
   .flower-plants ul {
     padding-left: 20px;
   }
 
   .flower-plants ul li {
     font-size: 14px;
+    margin-top: 16px;
   }
 
   /* Deals section */
   .deals h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .deals p {
     font-size: 14px;
-    padding: 0 8px;
+    padding:16px 28px 0;
   }
 
   .deals-card-wrapper {
     flex-direction: column;
-    gap: 24px;
-    padding: 60px 0;
+    gap: 20px;
+    padding: 51px 15px 40px 17px;
   }
 
   .deals-card-left,
   .deals-card-images img {
     width: 100%;
   }
+  
 
   .deals-card-title {
     font-size: 24px;
@@ -491,17 +498,13 @@ body{
 
   /* CTA Newsletter */
   .cta-title-content-wrapper h2 {
-    font-size: 24px;
+    font-size: 20px;
     padding: 0 8px;
   }
     .seller-badge img {
         display: none;
     }
-.plants-card-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 24px;
-    column-gap: 16px;
-  }
+
   .cta-bg-image {
     padding: 110px 0 64px 0;
   }
