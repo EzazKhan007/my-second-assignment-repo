@@ -351,6 +351,7 @@ body{
 @media (max-width: 600px) {
   /* Containers & Layout */
   .container-large,
+  .container-medium,
   .navbar,
   .banner,
   .flower-lover,
@@ -455,7 +456,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     row-gap: 24px;
     column-gap: 16px;}
-    
+
   .flower-plants ul {
     padding-left: 20px;
   }
@@ -509,7 +510,7 @@ body{
     padding: 110px 0 64px 0;
   }
   .card-continer img {
-    max-width: 171px;
+    max-width: 271px;
     width: 100%;
   }
   .cta-input-wrap {
