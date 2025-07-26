@@ -82,8 +82,9 @@ body{
     text-decoration: none;
 }
 .navbar, .banner{
-    max-width: 1140px;
+    max-width: 1180px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 /* banner related styles */
 .banner{
@@ -260,7 +261,7 @@ body{
 }
 /* bunch related style */
 .cta-bg-image{
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(../assets/news-letter-bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
